@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Planner</title>
+
+
+
+
+</head>
+<body>
+
+    
+    <h1>
+
+        / Daily Planner Plus /
+
+    </h1>
+
+    <h2>
+        A fun calendar app for scheduling your work day!
+
+
+    </h2>
+
+    
+    <p id="dT">Currently ~ <span id="datetime"></span></p>
+
+
+
+
+
+
+<script>
+var dt = new Date();
+document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
+</script>
+
+    
+    
+    
+    <hr>
+
+   
+
+    <div id="time1"> 9am </div>
+    <button id="btn1"> This is a button</button>
+
+
+
+
+<style>
+
+
+        h1 {
+
+            text-align: center;
+            padding-top: 50px;
+            font-size: 75px;
+            font-family: "chalkduster", fantasy, serif;
+
+        }
+
+        h2 {
+
+
+            text-align: center;
+            font-family: "chalkduster", fantasy, serif;
+            margin-top: -15px;
+            padding-bottom: 25px;
+            
+
+        }
+
+
+        hr {
+
+            height: 15px;
+            color: mintcream;
+            background-color: rgb(68, 253, 229);
+            
+
+        }
+
+        #dT {
+
+
+            text-align: center;
+            font-family: "chalkduster", fantasy, serif;
+            font-size: 25px;
+            margin-top: -20px;
+
+        }
+
+
+        #time1 {
+
+            float: inline-start;
+            margin-top: 25px;
+            font-size: 20px;
+            margin-left: 40px;
+
+
+        }
+        
+        
+        
+        #btn1 {
+
+
+            display: inline-block;
+font-weight: 400;
+margin-left: 100px;
+text-align: center;
+vertical-align: middle;
+cursor: pointer;
+width: 500px;
+height: 100px;
+user-select: none;
+/*background-color: transparent; */
+border: 1px solid transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+padding: .375rem .75rem;
+font-size: 1rem;
+line-height: 1.5;
+border-radius: .25rem;
+transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+background-color: mintcream;
+
+
+
+
+        }
+
+
+    body {
+
+
+        background-color: gainsboro;
+
+    }
+
+</style>
+
+
+</body>
+</html>
